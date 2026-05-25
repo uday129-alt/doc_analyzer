@@ -1,4 +1,4 @@
-# Eshwar — Multimodal Document Analyzer
+# Multimodal Document Analyzer
 
 Production-grade OCR + LLM pipeline built with Streamlit.
 
@@ -86,14 +86,5 @@ streamlit run app/main.py
 - **Retry** — `tenacity` applied to all provider calls (3 attempts, exp back-off)
 - **UI** — dark theme preserved; banner-ok/banner-err for feedback; chat bubbles styled
 
-### Added
-- `rag_utils.py` — dedicated RAG module (build_index, retrieve)
-- `download_utils.py` — dedicated download module (to_txt, to_pdf, to_docx)
-- Resume analyzer tab with job-description matching
-- About tab with full feature/provider listing
 
-### Not changed
-- Dark UI theme
-- Tab layout
-- Core OCR logic
-- Provider API call structure
+
